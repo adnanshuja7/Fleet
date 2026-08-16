@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-immersive-bg: #0A0A0B;
+  --color-immersive-surface: #151619;
+  --color-immersive-accent: #1C1D21;
+  --color-immersive-gold: #B8943F;
+  --color-immersive-border: #2A2C31;
+  --color-immersive-success: #25D366;
+  --color-immersive-warning: #F27D26;
+  --color-immersive-info: #3B8BD4;
+  --color-immersive-secondary-text: #8E9299;
+
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-immersive-bg);
+    color: #ffffff;
+    font-family: var(--font-sans);
+  }
+}

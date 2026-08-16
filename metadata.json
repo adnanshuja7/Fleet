@@ -1,0 +1,6 @@
+{
+  "name": "FleetOS",
+  "description": "Executive transportation procurement and capacity exchange network for premium chauffeur fleets in the GCC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
